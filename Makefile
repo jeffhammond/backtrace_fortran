@@ -10,5 +10,5 @@ test.x: test.F90
 	$(FC) $(FFLAGS) $< -o $@
 
 clean:
-	-rm -f test.x a.out *.o
+	-rm -f test.x a.out *.o *.mod
 	-rm -rf *.dSYM
